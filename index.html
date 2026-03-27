@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Mary 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Great+Vibes&family=Sacramento&family=Allura&family=Parisienne&family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="heart-bg"></div>
+        <div class="floating-hearts"></div>
+        
+        <!-- Proposal Screen -->
+        <div class="proposal-screen" id="proposalScreen">
+            <div class="proposal-content">
+                <div class="proposal-question">
+                    <div class="question-text">Do you love me or not? 💕</div>
+                    <div class="question-subtitle">Your answer will unlock something magical...</div>
+                </div>
+                
+                <div class="proposal-buttons">
+                    <button class="proposal-btn yes-btn" id="yesBtn">
+                        <span class="btn-heart">💖</span>
+                        <span class="btn-text">Yes, I love you!</span>
+                    </button>
+                    <button class="proposal-btn no-btn" id="noBtn">
+                        <span class="btn-heart">💔</span>
+                        <span class="btn-text">No</span>
+                    </button>
+                </div>
+                
+                <div class="love-hint">
+                    <div class="hint-text">Choose wisely... 💕</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content (Hidden Initially) -->
+        <div class="main-wrapper" id="mainWrapper" style="display: none;">
+            <header class="header">
+                <div class="sparkle-text">For Someone Special ✨</div>
+            </header>
+
+            <main class="main-content">
+                <div class="name-display">
+                    <div class="name-card" id="nameCard">
+                        <div class="name-text" id="nameText">Jaya Mary</div>
+                        <div class="language-name" id="languageName">English</div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="start-button-container">
+                        <button class="start-btn" id="startBtn">
+                            <span class="btn-icon">💕</span>
+                            <span class="btn-text">Click to Start Magic</span>
+                        </button>
+                    </div>
+
+                    <div class="language-buttons" id="languageButtons">
+                        <button class="lang-btn active" data-lang="ta" data-name="ஜெய மேரி">
+                            <span class="flag">🇱🇰</span>
+                            <span class="lang-name">Tamil</span>
+                        </button>
+                        <button class="lang-btn" data-lang="en" data-name="Jaya Mary">
+                            <span class="flag">🇺🇸</span>
+                            <span class="lang-name">English</span>
+                        </button>
+                        <button class="lang-btn" data-lang="es" data-name="Jaya María">
+                            <span class="flag">🇪🇸</span>
+                            <span class="lang-name">Spanish</span>
+                        </button>
+                        <button class="lang-btn" data-lang="fr" data-name="Jaya Marie">
+                            <span class="flag">🇫🇷</span>
+                            <span class="lang-name">French</span>
+                        </button>
+                        <button class="lang-btn" data-lang="de" data-name="Jaya Maria">
+                            <span class="flag">🇩🇪</span>
+                            <span class="lang-name">German</span>
+                        </button>
+                        <button class="lang-btn" data-lang="hi" data-name="जया मैरी">
+                            <span class="flag">🇮🇳</span>
+                            <span class="lang-name">Hindi</span>
+                        </button>
+                        <button class="lang-btn" data-lang="zh" data-name="贾亚·玛丽">
+                            <span class="flag">🇨🇳</span>
+                            <span class="lang-name">Chinese</span>
+                        </button>
+                        <button class="lang-btn" data-lang="ja" data-name="ジャヤ・マリー">
+                            <span class="flag">🇯🇵</span>
+                            <span class="lang-name">Japanese</span>
+                        </button>
+                        <button class="lang-btn" data-lang="ko" data-name="자야 메리">
+                            <span class="flag">🇰🇷</span>
+                            <span class="lang-name">Korean</span>
+                        </button>
+                        <button class="lang-btn" data-lang="ar" data-name="جايا ماري">
+                            <span class="flag">🇸🇦</span>
+                            <span class="lang-name">Arabic</span>
+                        </button>
+                        <button class="lang-btn" data-lang="ru" data-name="Джая Мэри">
+                            <span class="flag">🇷🇺</span>
+                            <span class="lang-name">Russian</span>
+                        </button>
+                        <button class="lang-btn" data-lang="pt" data-name="Jaya Maria">
+                            <span class="flag">🇵🇹</span>
+                            <span class="lang-name">Portuguese</span>
+                        </button>
+                        <button class="lang-btn" data-lang="it" data-name="Jaya Maria">
+                            <span class="flag">🇮🇹</span>
+                            <span class="lang-name">Italian</span>
+                        </button>
+                        <button class="lang-btn" data-lang="nl" data-name="Jaya Maria">
+                            <span class="flag">🇳🇱</span>
+                            <span class="lang-name">Dutch</span>
+                        </button>
+                        <button class="lang-btn" data-lang="pl" data-name="Jaya Maria">
+                            <span class="flag">🇵🇱</span>
+                            <span class="lang-name">Polish</span>
+                        </button>
+                        <button class="lang-btn" data-lang="tr" data-name="Jaya Mery">
+                            <span class="flag">🇹🇷</span>
+                            <span class="lang-name">Turkish</span>
+                        </button>
+                        <button class="lang-btn" data-lang="th" data-name="จายา แมรี่">
+                            <span class="flag">🇹🇭</span>
+                            <span class="lang-name">Thai</span>
+                        </button>
+                        <button class="lang-btn" data-lang="vi" data-name="Jaya Mary">
+                            <span class="flag">🇻🇳</span>
+                            <span class="lang-name">Vietnamese</span>
+                        </button>
+                        <button class="lang-btn" data-lang="he" data-name="ג'איה מרי">
+                            <span class="flag">🇮🇱</span>
+                            <span class="lang-name">Hebrew</span>
+                        </button>
+                        <button class="lang-btn" data-lang="el" data-name="Τζάγια Μέρι">
+                            <span class="flag">🇬🇷</span>
+                            <span class="lang-name">Greek</span>
+                        </button>
+                        <button class="lang-btn" data-lang="sv" data-name="Jaya Maria">
+                            <span class="flag">🇸🇪</span>
+                            <span class="lang-name">Swedish</span>
+                        </button>
+                        <button class="lang-btn" data-lang="no" data-name="Jaya Maria">
+                            <span class="flag">🇳🇴</span>
+                            <span class="lang-name">Norwegian</span>
+                        </button>
+                    </div>
+
+                    <div class="auto-play-toggle">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="autoPlay">
+                            <span class="slider"></span>
+                        </label>
+                        <span class="toggle-label">Auto Play</span>
+                    </div>
+                </div>
+
+                <div class="love-message">
+                    <div class="message-text">
+                        "Every language speaks the same truth - you are amazing 💕"
+                    </div>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <div class="footer-text">Made with 💕 for Jaya Mary</div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
